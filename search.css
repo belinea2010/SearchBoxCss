@@ -1,0 +1,42 @@
+/* Header Section */
+.header { 
+
+	overflow: hidden; 
+	
+} 
+
+.logo, .search { 
+	margin-top: 30px !important; 
+	margin-bottom: 30px !important; 
+}
+
+.logo h1 { 
+	margin: 0; 
+	color: #fff; 
+	font-size: 46px; 
+}
+
+.search { text-align: right;  } 
+
+.search form { margin: 0 } 
+
+.search input {
+	display: inline-block;
+	margin: 0; 
+	border: 1px solid #d2d2d2; 
+	font-size: 16px; 
+} 
+.search .button { 
+	background: #c6201e;
+	font-weight: normal;
+	color: white;
+}
+
+.search .button:hover {
+    background-color: #e0e0e0;
+    color: white;
+}
+.search .search_box { 
+	font-style: italic; 
+	width: 250px; 
+}
